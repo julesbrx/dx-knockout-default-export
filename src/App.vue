@@ -23,7 +23,7 @@ onMounted(() => {
   if (!root) throw new Error();
 
   const dashboard = new DashboardControl(root, {
-    endpoint: '/dashboards',
+    endpoint: 'https://demos.devexpress.com/services/dashboard/api',
   });
 
   dashboard.render();
@@ -33,3 +33,16 @@ onMounted(() => {
 <template>
   <div id="dashboard"></div>
 </template>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+</style>
+
+<style scoped>
+#dashboard {
+  height: 100vh;
+}
+</style>

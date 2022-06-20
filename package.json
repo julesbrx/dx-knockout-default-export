@@ -13,6 +13,7 @@
     "devexpress-richedit": "^21.2.8",
     "devextreme": "^21.2.8",
     "jquery": "^3.6.0",
+    "jquery-ui-dist": "^1.13.1",
     "vue": "^3.2.25"
   },
   "devDependencies": {
