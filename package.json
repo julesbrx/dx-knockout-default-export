@@ -14,7 +14,8 @@
     "devextreme": "^21.2.8",
     "jquery": "^3.6.0",
     "jquery-ui-dist": "^1.13.1",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
   },
   "devDependencies": {
     "@rollup/plugin-inject": "^4.0.4",
